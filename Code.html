@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <!--logo-->
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="logo">Marvin Mejia</a>
+        <!--menu-->
+        <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </nav>
+
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Email:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="cname">Date:</label><br>
+        <input type="text" id="cname" name="cname"> <br>
+        <input type="submit" value="Submit">
+      </form>
+
+    <style>
+                body{
+            background-color:#ebebeb;
+            margin:0px;
+            padding:0px;
+        }
+        ul{
+            list-style:none;
+        }
+        a{
+            text-decoration:none;
+        }
+        a:hover{
+        color: rgb(170, 170, 170);
+        }
+        section{
+            width:100%;
+            height:95vh;
+            background-image:url("../images/bg.png");
+            background-size:cover;
+            background-repeat:no-repeat;
+            position: relative;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            height:75px;
+            background-color: #5ed3fa;
+            box-shadow:2px 2px 12px rgba(48, 207, 255, 0.2);
+            padding:0px 5%;
+        
+        }
+
+        nav ul{
+            display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+        }
+        .toggle{
+            display: none;
+        }
+        
+        nav ul li a{
+            margin:30px;
+        font-family: 'Josefin Sans', sans-serif;
+            color: white;
+            font-size: 15px;
+            font-weight:700;
+        }
+        .logo{
+            font-family: 'Josefin Sans', sans-serif;
+            color:white;
+            font-size: 22px;
+        }
+    </style>
+    
+
+</body>
+</html>
+
 
